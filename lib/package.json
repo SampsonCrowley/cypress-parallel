@@ -1,11 +1,11 @@
 {
-  "name": "cypress-parallel",
-  "version": "0.12.0",
+  "name": "cypress-threads",
+  "version": "1.0.0",
   "description": "Reduce up to 40% your Cypress suite execution time parallelizing the test run on the same machine.",
-  "main": "cli.js",
+  "main": "cypress-threads.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tnicola/cypress-parallel.git"
+    "url": "git+https://github.com/SampsonCrowley/cypress-threads.git"
   },
   "keywords": [
     "cypress",
@@ -13,14 +13,17 @@
     "local",
     "sharding"
   ],
-  "author": "Nicola Tommasi",
+  "contributors": [
+    "Nicola Tommasi",
+    "Sampson Crowley <sampsonsprojects@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tnicola/cypress-parallel/issues"
+    "url": "https://github.com/SampsonCrowley/cypress-threads/issues"
   },
-  "homepage": "https://github.com/tnicola/cypress-parallel#readme",
+  "homepage": "https://github.com/SampsonCrowley/cypress-threads#readme",
   "bin": {
-    "cypress-parallel": "./cli.js"
+    "cypress-threads": "./cypress-threads.js"
   },
   "dependencies": {
     "cli-table3": "^0.6.0",
